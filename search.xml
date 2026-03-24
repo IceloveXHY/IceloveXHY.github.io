@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>LoveXHY个人博客搭建教程</title>
+      <link href="/2026/03/24/LoveXHY%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+      <url>/2026/03/24/LoveXHY%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="LoveXHY个人博客搭建教程"><a href="#LoveXHY个人博客搭建教程" class="headerlink" title="LoveXHY个人博客搭建教程"></a>LoveXHY个人博客搭建教程</h1><p>本文适用于零基础新手，详细讲解基于Hexo框架搭建个人博客的完整流程，包含环境配置、项目初始化、本地预览、部署上线全步骤。</p><h2 id="一、前置准备"><a href="#一、前置准备" class="headerlink" title="一、前置准备"></a>一、前置准备</h2><h3 id="1-安装必备软件"><a href="#1-安装必备软件" class="headerlink" title="1. 安装必备软件"></a>1. 安装必备软件</h3><ul><li><strong>Node.js</strong>：Hexo基于Node.js运行，推荐安装LTS版本（<a href="https://nodejs.org/">下载地址</a>），安装后执行<code>node -v</code>验证是否安装成功；</li><li><strong>Git</strong>：用于代码管理和部署，<a href="https://git-scm.com/">下载地址</a>，安装后执行<code>git --version</code>验证；</li><li><strong>代码编辑器</strong>（可选）：推荐VS Code，方便编辑博客文章和配置文件。</li></ul><h3 id="2-注册代码托管平台账号"><a href="#2-注册代码托管平台账号" class="headerlink" title="2. 注册代码托管平台账号"></a>2. 注册代码托管平台账号</h3><p>推荐GitHub（国际）或Gitee（国内），用于存放博客源码和部署静态页面（后续以GitHub为例）。</p><h2 id="二、核心搭建步骤"><a href="#二、核心搭建步骤" class="headerlink" title="二、核心搭建步骤"></a>二、核心搭建步骤</h2><h3 id="1-安装Hexo-CLI（Hexo命令行工具）"><a href="#1-安装Hexo-CLI（Hexo命令行工具）" class="headerlink" title="1. 安装Hexo-CLI（Hexo命令行工具）"></a>1. 安装Hexo-CLI（Hexo命令行工具）</h3><h2 id="打开终端-命令提示符，执行以下命令全局安装：-bashnpm-install-g-hexo-cli"><a href="#打开终端-命令提示符，执行以下命令全局安装：-bashnpm-install-g-hexo-cli" class="headerlink" title="打开终端&#x2F;命令提示符，执行以下命令全局安装：&#96;&#96;&#96;bashnpm install -g hexo-cli"></a>打开终端&#x2F;命令提示符，执行以下命令全局安装：<br>&#96;&#96;&#96;bash<br>npm install -g hexo-cli</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo, 博客搭建, 新手教程, GitHub Pages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇博客</title>
+      <link href="/2026/03/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2026/03/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>终于搭建好属于自己的Hexo博客啦！这是发布的第一篇文章，简单聊聊搭建过程的感受和小总结～</p><h2 id="为什么选择Hexo？"><a href="#为什么选择Hexo？" class="headerlink" title="为什么选择Hexo？"></a>为什么选择Hexo？</h2><p>在尝试过几款博客搭建工具后，最终选择Hexo主要有这几个原因：</p><ul><li><strong>轻量高效</strong>：基于Node.js开发，生成静态页面的速度特别快，本地预览几乎无延迟；</li><li><strong>上手简单</strong>：核心命令就几个，官方文档清晰，新手跟着教程走就能快速入门；</li><li><strong>高度自定义</strong>：丰富的开源主题和插件，能轻松调整博客样式、增加功能（比如评论、阅读统计）。</li></ul><h2 id="搭建过程的小感悟"><a href="#搭建过程的小感悟" class="headerlink" title="搭建过程的小感悟"></a>搭建过程的小感悟</h2><p>从安装Node.js、Git，到初始化Hexo项目、本地预览，再到第一次发布文章，整个过程不算复杂，但也踩了几个小坑（比如忘记配置deploy导致部署失败）。不过解决问题的过程，也让我对Hexo的运行逻辑有了更清晰的认识。</p><h2 id="后续计划"><a href="#后续计划" class="headerlink" title="后续计划"></a>后续计划</h2><ol><li>更换个性化主题，调整博客的配色、布局，让页面更符合自己的审美；</li><li>定期更新技术笔记和生活随笔，把博客当成自己的“知识仓库”；</li><li>配置评论功能（比如Valine）和访问统计，增加博客的互动性；</li><li>尝试部署到GitHub Pages + Gitee Pages，保证访问稳定性。</li></ol><h2 id="如果你也刚接触Hexo，或者有博客搭建的小技巧想分享，欢迎留言交流～"><a href="#如果你也刚接触Hexo，或者有博客搭建的小技巧想分享，欢迎留言交流～" class="headerlink" title="如果你也刚接触Hexo，或者有博客搭建的小技巧想分享，欢迎留言交流～"></a>如果你也刚接触Hexo，或者有博客搭建的小技巧想分享，欢迎留言交流～</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 个人记录, Hexo博客, 新手入门 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2026/03/24/hello-world/"/>
+      <url>/2026/03/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
